@@ -1,0 +1,30 @@
+/* GENERAL */
+
+* { box-sizing: border-box; }
+
+a:hover { cursor: pointer; }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* HEADER & NAV */
+
+header {
+  color: #ffffff; /* white */
+  background-color: #03a3df; /* light blue */
+}
+
+/* FOOTER */
+
+footer {
+  background-image: url('../images/footerImage.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #ffffff; /* white */
+}
