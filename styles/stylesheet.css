@@ -2,7 +2,10 @@
 
 * { box-sizing: border-box; }
 
-a:hover { cursor: pointer; }
+a:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
 
 .container {
   display: flex;
@@ -19,6 +22,10 @@ header {
   color: #ffffff; /* white */
   background-color: #03a3df; /* light blue */
 }
+
+/* BODY & MISC */
+
+li { list-style-type: none; }
 
 /* FOOTER */
 
