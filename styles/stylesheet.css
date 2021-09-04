@@ -27,8 +27,6 @@ body > * {
   gap: 0.25rem;
 }
 
-.flex-container { display: flex; }
-
 figure { margin: 0; }
 
 figcaption { font-size: 0.75rem; }
@@ -87,6 +85,37 @@ aside img { width: 100%; }
 
 section > *,
 aside > * { margin-bottom: 2.5rem; }
+
+.flex-container { display: flex; }
+
+#services-list li { display: block; }
+
+.flex-container,
+#services-list li {
+  margin: 2.5rem 0 2.5rem 0;
+  padding: 2.5rem;
+  background-color: #1b447f; /* medium blue */
+  color: #ffffff; /* white */
+}
+
+.flex-container img { max-height: 200px; }
+
+hr {
+  height: 2px;
+  background-color: #ecb722; /* gold */
+}
+
+.col-1 { padding-top: 1rem; }
+
+.col-2 { padding-left: 1.5rem; }
+
+h5 {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #ecb722; /* gold */
+}
+
 
 /* FOOTER */
 
